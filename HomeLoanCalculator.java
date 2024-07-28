@@ -251,7 +251,8 @@ class HomeLoanCalculator extends JFrame  implements ActionListener
 	
 	public static void main(String args[])
 	{
-		new HomeLoanCalculator();
+		// new HomeLoanCalculator();
 		System.out.println("Home Loan Calculator Has Started");
+		System.exit(0);
 	}
 }
